@@ -1,0 +1,17 @@
+.clientContainer{
+    .clientInfo{
+        border: 1px solid #ccc;
+        text-align: center;
+        margin-top: 1rem;
+        padding: 1rem;
+        .clientName{
+            font-weight: bold;
+            padding-top: 0.5rem; 
+        }
+        .avatar{
+            img{
+                border-radius: 4rem;
+            }
+        }
+    }
+}

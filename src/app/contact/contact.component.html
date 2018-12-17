@@ -1,0 +1,21 @@
+<div class="container contactContainer">
+  <h2>Contact Us</h2>
+  <div class="row">
+  <form [formGroup]="contactForm" (ngSubmit)="contactFormSubmit()" name="contactForm" class="contactForm col-sm-6">
+    <div class="row">
+      <input type="text" name="uname" placeholder="Name" formControlName="name" class="col-sm-8" />
+      <div *ngIf="submitted && contactForm.controls.name.errors" class="error">
+          <div *ngIf="contactForm.controls.name.errors.required">Your name is required</div>
+        </div>
+    </div>
+    <div class="row">
+        <input type="text" name="desc" placeholder="Query" formControlName="message" class="col-sm-8" />
+    </div>
+    <input type="submit" class="primaryBtn col-sm-5">
+  </form>
+  <div class="col-sm-6">
+    <div *ngIf="this.contactForm.value.name">Name is : {{this.contactForm.value.name}}</div>
+    <div *ngIf="this.contactForm.value.message">message is : {{this.contactForm.value.message}}</div>
+  </div>
+  </div>
+</div>

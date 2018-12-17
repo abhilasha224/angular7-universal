@@ -1,0 +1,11 @@
+<div class="clientContainer container" *ngIf="clientList">
+  <div class="row">
+    <div *ngFor='let client of clientList.data' class="col-md-6 col-sm-6">
+      <div class="clientInfo">
+        <div class="col-sm-12 avatar"><img [src]="client.avatar"></div>
+        <div class="clientName">{{client.first_name}} {{client.last_name}}</div>
+        <div class="clientIntro">Lorem ipsum dolor sit amet, mei officiis invenire ex, in graece bonorum eligendi mea, habemus gloriatur mediocritatem ut mel.</div>
+      </div>
+    </div>
+  </div>
+</div>

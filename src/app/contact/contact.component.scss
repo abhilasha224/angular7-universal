@@ -1,0 +1,15 @@
+.contactContainer{
+    padding: 1rem;
+    .contactForm{
+        border-right: 1px solid #ccc;
+        input{
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 1rem;
+        }
+        .primaryBtn{
+            background-color: #a71c1ced;
+            color: #fff
+        }
+    }    
+}

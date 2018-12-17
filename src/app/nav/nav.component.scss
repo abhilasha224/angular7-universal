@@ -1,0 +1,19 @@
+.navContainer{
+    background-color: #a71c1ced;
+    .navLinks{
+        text-align: center;
+    }
+    .navRow{
+        padding-top: 0.5rem;
+        padding-bottom: 0.4rem;
+        a{
+            color: #fff;
+        }
+        .logo{
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #fff;
+            padding-left: 3rem;
+        }
+    }
+}
