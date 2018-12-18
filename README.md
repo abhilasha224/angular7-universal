@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
 ## Getting Started
-`https://github.com/abhilasha224/angular7-universal.git`
+`git clone https://github.com/abhilasha224/angular7-universal.git`
 
 `cd angular7-universal`
 
